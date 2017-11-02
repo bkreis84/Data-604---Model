@@ -1,0 +1,10 @@
+Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
+7.79844125757684,Severe.147,Input@TreatmentRooms,0.TransferFailureLogic,[Notify] DestroyingEntity,Entity 'Severe.147' failed to initiate transfer from node
+7.79844125757684,Severe.147,Input@TreatmentRooms,0.TransferFailureLogic,[Notify] DestroyingEntity,"Entity 'Severe.147' failed to initiate transfer from node 'Input@TreatmentRooms'. The entity is being automatically destroyed. However, this warning may indicate a problem in the modeled logic."
+11.6508861307117,Severe.198,Input@TreatmentRooms,1.TransferFailureLogic,[Notify] DestroyingEntity,Entity 'Severe.198' failed to initiate transfer from node
+11.6508861307117,Severe.198,Input@TreatmentRooms,1.TransferFailureLogic,[Notify] DestroyingEntity,"Entity 'Severe.198' failed to initiate transfer from node 'Input@TreatmentRooms'. The entity is being automatically destroyed. However, this warning may indicate a problem in the modeled logic."
+12.0805076273336,Severe.206,Input@TreatmentRooms,4.TransferFailureLogic,[Notify] DestroyingEntity,Entity 'Severe.206' failed to initiate transfer from node
+12.0805076273336,Severe.206,Input@TreatmentRooms,4.TransferFailureLogic,[Notify] DestroyingEntity,"Entity 'Severe.206' failed to initiate transfer from node 'Input@TreatmentRooms'. The entity is being automatically destroyed. However, this warning may indicate a problem in the modeled logic."
+13.7163914557141,Severe.235,Input@TreatmentRooms,4.TransferFailureLogic,[Notify] DestroyingEntity,Entity 'Severe.235' failed to initiate transfer from node
+13.7163914557141,Severe.235,Input@TreatmentRooms,4.TransferFailureLogic,[Notify] DestroyingEntity,"Entity 'Severe.235' failed to initiate transfer from node 'Input@TreatmentRooms'. The entity is being automatically destroyed. However, this warning may indicate a problem in the modeled logic."
+
