@@ -1,0 +1,4 @@
+Time(Minutes),EntityID,ObjectName,ProcessID,StepName,Action
+321.632835544379,--,--,--,--,Destroying entity with seized resources
+321.632835544379,--,--,--,--,"Entity 'Urgent.78' is being destroyed while still owning one or more resources. The resources will be automatically released, however this warning may indicate a problem in the modeled logic."
+
