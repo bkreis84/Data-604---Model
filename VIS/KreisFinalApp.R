@@ -55,9 +55,9 @@ ui <- dashboardPage(
                 box(
                 h2("Final Project: Fall 2017"),
                 h3("Brian Kreis - Data 608"),
-                p("The IRS publishes data annually with numerous variables broken out by AGI level and zip code. Here we examine just 
-                   a small portion of the interesting variables that are available from the years 2010 to 2015. These years were selected because the variables of interest were not available in prior years. Visualizations allow you to compare states over time in four variables:"),
-                p("This information is especially relevant now as large scale changes to the tax code appear to be on the horizon. This data set could be explored even further to determine the potential impact as the bill is finalized"),
+                p("The IRS publishes data annually with numerous variables broken out by AGI level and zip code. This information is especially relevant now as large scale changes to the tax code appear to be on the horizon. This data set could be explored even further to determine the potential impact as the bill is finalized. Here we examine just 
+                   a small portion of the interesting variables that are available from the years 2010 to 2015. These years were selected because the variables of interest were not available in prior years."),
+                p("Visualizations allow you to compare states over time in four variables:"),
                 tags$div(
                   tags$ul(
                     tags$li("Percentage of returns claiming business income"),
