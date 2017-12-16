@@ -57,6 +57,7 @@ ui <- dashboardPage(
                 h3("Brian Kreis - Data 608"),
                 p("The IRS publishes data annually with numerous variables broken out by AGI level and zip code. Here we examine just 
                    a small portion of the interesting variables that are available from the years 2010 to 2015. These years were selected because the variables of interest were not available in prior years. Visualizations allow you to compare states over time in four variables:"),
+                p("This information is especially relevant now as large scale changes to the tax code appear to be on the horizon. This data set could be explored even further to determine the potential impact as the bill is finalized"),
                 tags$div(
                   tags$ul(
                     tags$li("Percentage of returns claiming business income"),
@@ -79,9 +80,10 @@ ui <- dashboardPage(
                     tags$li("Real estate ownership in the Dakotas appears low as you may expect with the number of individuals who moved to the area for natural gas jobs. "),
                     tags$li("The highest percentage of returns with business income in New York were found in people making over 200k and those making under 25k.")
                   )),
-                h4("Data Cleaning - Kreis"),
+                h4("Related to Project"),
                 wellPanel(
-                  helpText(a("Data Cleaning", href="http://rpubs.com/bkreis84/342356"))
+                  helpText(a("Data Cleaning", href="http://rpubs.com/bkreis84/342356")),
+                  helpText(a("Shiny Application", href="https://github.com/bkreis84/Data-604---Model/blob/master/VIS/KreisFinalApp.R"))
                 ),
                 h4("Sources"),
                 wellPanel(
@@ -89,11 +91,12 @@ ui <- dashboardPage(
                   helpText(a("State Conversion", href="https://favorableoutcomes.wordpress.com/2012/10/19/create-an-r-function-to-convert-state-codes-to-full-state-name/")),            
                   helpText(a("Mapping in ggplot", href="http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html")),
                   helpText(a("More Mapping in ggplot", href="https://shiny.rstudio.com/articles/google-analytics.html"))              
-                  )
-                ),
-              width = 8)
-              )
+                  ),
+                width = 8)
+                )
+              
               ),
+        
       
       tabItem(tabName = "rank",
                 fluidRow(
