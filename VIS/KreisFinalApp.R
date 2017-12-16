@@ -83,7 +83,7 @@ ui <- dashboardPage(
                 h4("Related to Project"),
                 wellPanel(
                   helpText(a("Data Cleaning", href="http://rpubs.com/bkreis84/342356")),
-                  helpText(a("Shiny Application", href="https://github.com/bkreis84/Data-604---Model/blob/master/VIS/KreisFinalApp.R"))
+                  helpText(a("Shiny Code", href="https://github.com/bkreis84/Data-604---Model/blob/master/VIS/KreisFinalApp.R"))
                 ),
                 h4("Sources"),
                 wellPanel(
